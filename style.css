@@ -20,11 +20,11 @@
 body {
   display: grid;
   place-content: center;
-  max-height: 100vh;
+  min-height: 100vh;
 
   font-family: var(--ff);
   font-weight: 500;
-  background-color: var(--tc-grey);
+  background-color: var(--tc-blue-grey);
 }
 
 .author {
@@ -107,7 +107,7 @@ body {
 .flow {
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 .author .name {
@@ -136,4 +136,10 @@ body {
   margin-top: 1.5rem;
   opacity: 0.7;
   font-weight: 500;
+}
+
+.bg-q {
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
 }
